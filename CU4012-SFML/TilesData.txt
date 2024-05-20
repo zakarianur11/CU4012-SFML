@@ -41,4 +41,3 @@ Collectable,3907,34,50,50,1,0,1,1,Collectable.png
 Checkpoint,4906,200.274,61.8,190.9,1,1,0,1,Wall.png
 Platform,2633,299,50,50,0,1,0,1,Mushroom.png
 ,3639,34.2252,50,50,0,1,0,1,Mushroom.png
-Platform,4752.29,286.632,50,50,0,1,0,1,Beach_Ball.png

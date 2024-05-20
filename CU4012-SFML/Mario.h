@@ -9,10 +9,14 @@ class Mario : public GameObject
 	Animation walk;
 	Animation swim;
 	Animation duck;
-	Animation* currentAnimation;
+	Animation* currentAnimation;	
+	int noOfCoinsCollected;
+
 	
 public:
 	Mario();
 	void handleInput(float dt) override;
+	void addCollected(int count) { noOfCoinsCollected += count; }
+	int getCollectableCount() { return noOfCoinsCollected; }
 };
 

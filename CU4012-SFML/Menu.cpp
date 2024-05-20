@@ -11,7 +11,7 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 	titleFont.loadFromFile("font/BloodBlocks Project.ttf");
 
 
-	menu_texture.loadFromFile("gfx/menu.png");
+	menu_texture.loadFromFile("gfx/mariomenu.png");
 	menu_sprite.setTexture(menu_texture);
 	
 	//Scaling the sprite to fit any screen 
@@ -30,7 +30,7 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 
 	Title.setFont(titleFont);
 	Title.setFillColor(sf::Color::Magenta);
-	Title.setString("My Game");
+	Title.setString("MARIO RUN");
 	Title.setOutlineColor(sf::Color::Black);
 	Title.setCharacterSize(70);
 	Title.setPosition(500, 50);
@@ -38,7 +38,7 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 
 	UIText[0].text.setFont(UIfont);
 	UIText[0].text.setFillColor(sf::Color::Red);
-	UIText[0].text.setString("Play");
+	UIText[0].text.setString("START");
 	UIText[0].text.setPosition(sf::Vector2f(600,120));
 	UIText[0].setCollisionBox(sf::FloatRect(600, 135, 35, 15));
 
@@ -46,7 +46,7 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 
 	UIText[1].text.setFont(UIfont);
 	UIText[1].text.setFillColor(sf::Color::White);
-	UIText[1].text.setString("Exit");
+	UIText[1].text.setString("QUIT");
 	UIText[1].text.setPosition(sf::Vector2f(600,150));
 	UIText[1].setCollisionBox(sf::FloatRect(600, 165, 35, 15));
 

@@ -8,7 +8,7 @@ Mario::Mario()
 	setSize(sf::Vector2f(15*4, 21*4));
 	setPosition(100, 100);
 	setTexture(&marioSpriteSheet);
-
+	setTag("Player");
 
 	walk.addFrame(sf::IntRect(0, 0, 15, 21)); 
 	walk.addFrame(sf::IntRect(15, 0, 15, 21)); 

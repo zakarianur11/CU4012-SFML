@@ -24,4 +24,8 @@ private:
 	// Default variables for level class.
 	
 	Mario mario;
+	sf::Text CollectableCollected;
+	sf::Sprite CollectablesUI;
+	sf::Font font;
+	sf::Texture CollectablesUITex;
 };
